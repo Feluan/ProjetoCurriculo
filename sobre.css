@@ -1,0 +1,23 @@
+body {
+    background-image: url("./imagem/gato-engracado-preto-isolado-em-branco_104337-9307.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font: white;
+}
+
+main {
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 50vh;
+    font-size: medium;
+    font-family: cursive;
+    flex-direction: column;
+}
+
+header {
+    color: blueviolet;
+    text-align: center;
+    font-size: medium;
+    font-family: cursive;
+}
