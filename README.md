@@ -1,4 +1,4 @@
-App de meditação
+App de meditação <br>
 	1.Cores primarias e secundarias
 	2.Cores fundo e textos
 	3.Cores para estado e ações 
