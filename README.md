@@ -8,7 +8,7 @@ App de meditação <br>
 1-	Azul escuro e cinza <br>
 2-	Azul escuro e branco <br>
 3-	Azul claro com detalhe brilhante <br>
-4-	Botões que permitem entrar em musicas para meditção (deixa o usuário escolher o sentimento dele)
+4-	Botões que permitem entrar em musicas para meditção (deixa o usuário escolher o sentimento dele) <br>
 Referencias:<br><br>
 
 https://br.freepik.com/vetores-premium/colecao-de-aplicativos-de-meditacao-de-design-plano_10072256.htm
