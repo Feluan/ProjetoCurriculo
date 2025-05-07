@@ -1,8 +1,10 @@
 body {
     background-image: url("./imagem/gato-engracado-preto-isolado-em-branco_104337-9307.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     font: white;
+    min-height: 100vh;
+    
 }
 
 main {
@@ -13,6 +15,7 @@ main {
     font-size: medium;
     font-family: cursive;
     flex-direction: column;
+    flex: 1 ;
 }
 
 header {

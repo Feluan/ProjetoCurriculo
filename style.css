@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -22,7 +29,7 @@ header img {
     width: auto;
     height: 180px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid var(--text-color);
     object-fit: cover;
 }
 
@@ -65,7 +72,7 @@ main ul li a button {
 }
 
 main ul li a button:hover {
-    background-color: rgba(255, 255, 2555, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     transform: scale(1.1);
 }
 
