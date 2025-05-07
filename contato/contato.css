@@ -5,7 +5,7 @@
     }
 
     body {
-        background-image: url(/imagem/fundo.jpg);
+        background-image: url(/imagem/5630939.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         /* Garantir que a imagem cubra toda a tela */
@@ -35,8 +35,9 @@
         background: #020024;
         background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
         color: white;
-        font-size: larger;
+        font-size: medium;
         margin: 0px;
+        flex: 1;
     }
 
     .perfil img {
