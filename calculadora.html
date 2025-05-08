@@ -30,29 +30,33 @@
     <h2>Resultado <span id="mensagem">
         </span></h2>
 
-    <script>
-        function validarResposta() {
-            let num1 = parseFloat(document.getElementById('num1').value);
-            let num2 = parseFloat(document.getElementById('num2').value);
-            let operador = document.getElementById('operador').value;
-            let respostaUsuario = parseFloat(document.getElementById('respostaUsuario').value)
-            let Resultado
-        }
-        switch (operador) {
-            case '+':
-                Resultado = num1 + num2;
-                break;
-            case '-':
-                Resultado = num1 - num2;
-                break;
-            case '*':
-                Resultado = num1 * num2;
-                break;
-            case '/':
-                Resultado = num1 / num2;
-                break;
-            
-        }
+        <script>
+            function validarResposta() {
+                let num1 = parseFloat(document.getElementById('num1').value);
+                let num2 = parseFloat(document.getElementById('num2').value);
+                let operador = document.getElementById('operador').value;
+                let respostaUsuario = parseFloat(document.getElementById('respostaUsuario').value);
+                let Resultado;
+        
+                switch (operador) {
+                    case '+':
+                        Resultado = num1 + num2;
+                        break;
+                    case '-':
+                        Resultado = num1 - num2;
+                        break;
+                    case '*':
+                        Resultado = num1 * num2;
+                        break;
+                    case '/':
+                        Resultado = num2 !== 0 ? num1 / num2 : "Erro: Divisão por zero.";
+                        break;
+                }
+        
+                document.getElementById("mensagem").innerText =
+                    `Você digitou: ${respostaUsuario}, e o resultado correto é: ${Resultado}`;
+            }
+
     </script>
 </body>
 
